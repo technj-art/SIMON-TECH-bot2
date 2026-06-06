@@ -1,0 +1,33 @@
+{
+  "name": "simon-tech-bot2",
+  "version": "2.0.0",
+  "description": "WhatsApp Bot with Telegram Control - Only TOKEN needed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "session": "node session-generator-v2.js",
+    "telegram": "node telegram-controller.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "telegram",
+    "baileys"
+  ],
+  "author": "SIMON TECH",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "node-telegram-bot-api": "^0.63.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
