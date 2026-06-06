@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+SESSION_ID
+*.session
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Bot Files
+sessions/
+creds.json
+auth_info/
+
+# Railway
+.railway/
+
+# Logs
+logs/
+*.log
+
+# Build
+dist/
+build/
